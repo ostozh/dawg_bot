@@ -1,0 +1,25 @@
+{
+  "name": "dawg_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "swap": "npx tsx ./index.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@raydium-io/raydium-sdk": "^1.3.1-beta.50",
+    "@solana/spl-token": "^0.4.1",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.4.5",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.2"
+  }
+}
